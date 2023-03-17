@@ -2,7 +2,7 @@
 /**
  * main -print out sizes of date types in c
  * code by bwave ict
- * return: 0
+ * Return: 0
 */
 int main(void)
 {
