@@ -2,7 +2,7 @@
 /**
  * main - print a c program using printf
  *
- * ruture: 0
+ * ruturn: 0
 */
 int main(void)
 {
