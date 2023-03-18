@@ -4,8 +4,8 @@
 
 /**
  * main -> assign a random number to the variable n each time it is executed
- * and print the last gigit of the number stored in the variable n
- * Return: alwys 0 (success)
+ * and print the last digit of the number stored in the variable n
+ * Return: always 0 (success)
 */
 int main(void)
 {
@@ -29,7 +29,7 @@ int main(void)
 	{
 		printf("and is less than 6 and not 0");
 	}
-	print("\n");
+	printf("\n");
 
 	return (0);
 }
