@@ -1,11 +1,19 @@
-#include <stdio.h>
-
+#include <main.h>
 /**
- * main - print _putchar
- * Return: always 0 (success)
-*/
-int(void)
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return: always 0
+ */
+int main(void)
 {
-	printf("%s", _putchar"\n");
-return: (0)
+	_putchar('_');
+	_putchar('P');
+	_putchar('U');
+	_putchar('T');
+	_putchar('C');
+	_putchar('H');
+	_putchar('A');
+	_putchar('R');
+	_putchar('\n');
+	return (0);
 }
