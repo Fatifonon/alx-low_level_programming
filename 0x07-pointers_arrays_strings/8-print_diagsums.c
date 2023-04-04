@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print _diagsums - entry point
+ * print _diagsums - Entry point
  * @a: input
  * @size: input
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 void print_diagsums(int *a, int size)
