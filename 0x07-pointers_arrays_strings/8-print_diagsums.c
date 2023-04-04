@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print _diagsums - enrtry point
+ * print _diagsums - entry point
  * @a: input
  * @size: input
  * Return: Always 0 (success)
