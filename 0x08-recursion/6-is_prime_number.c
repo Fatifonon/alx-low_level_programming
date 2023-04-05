@@ -10,7 +10,7 @@
 int check_prime(int n, int othern);
 int is_prime_number(int n)
 {
-	return (check_prime(n, 2));
+	return (is_prime_number(n, 2));
 }
 /**
  * check_prime - check all numbers < n if they can divide it
