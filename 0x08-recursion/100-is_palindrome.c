@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * last_index - returns the last index of a string (counts the null char)
  * @s: pointer the string
@@ -22,9 +23,9 @@ int last_index(char *s)
  */
 int is_palindrome(char *s)
 {
-	int end = last_index(s);
+        int end = last_index(s);
 
-	return (check(s, 0, end - 1, end % 2));
+        return (check(s, 0, end - 1, end % 2));
 }
 /**
  * check - checker for the alindrome
