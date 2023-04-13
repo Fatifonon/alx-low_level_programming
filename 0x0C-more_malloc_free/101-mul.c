@@ -45,7 +45,7 @@ void errors(void)
 	exit(98);
 }
 /**
- * main - multiplies tow positive numbers
+ * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: always 0 (success)
@@ -56,10 +56,10 @@ int main(int argc, char *argv[])
 
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
-	si = argv[1], s2 = argv[2];
+	s1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
-	len1 = _atrlen(s1);
+	len1 = _strlen(s1);
 	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
-	for (i = 0; i <= len1 - 1; len1 >= 0; len1--)
+	for (len1 = len1 -1; len1 >= 0; len1--)
 	{
 		digit1 = s1[len1] - '0';
 		carry = 0;
@@ -83,14 +83,14 @@ int main(int argc, char *argv[])
 	}
 	for (i = 0; i < len - 1; i++)
 	{
-		if (rasult[i])
+		if (result[i])
 			a = 1;
 		if (a)
 			_putchar(result[i] + '0');
 	}
 	if (!a)
 		_putchar('0');
-	_putchar("\n");
+	_putchar('\n');
 	free(result);
 	return (0);
 }
